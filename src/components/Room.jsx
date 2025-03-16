@@ -1,0 +1,121 @@
+import { useGLTF } from '@react-three/drei'
+
+const Room = (props) => {
+    const { nodes, materials } = useGLTF('./models/pokemon-room.glb')
+    return (
+        <group {...props} dispose={null}>
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.base_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.tiles_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.chair_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.table_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.Computer_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.TV_stand_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.TV_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.carpet_A_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.carpet_B_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.bed_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.dresser_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.bookShelf_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.NES_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.railing_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.stairs_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.wall_picture_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.ambient_occlusion_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+            <mesh
+                castShadow
+                receiveShadow
+                geometry={nodes.title_fireRed_material_0.geometry}
+                material={materials.fireRed_material}
+            />
+        </group>
+    )
+}
+
+useGLTF.preload('./models/pokemon-room.glb')
+
+export default Room;
