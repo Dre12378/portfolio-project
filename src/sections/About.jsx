@@ -19,7 +19,7 @@ const About = () => {
 
 
     return (
-        <section className="c-space my-20">
+        <section className="c-space my-20" id="about">
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
@@ -60,7 +60,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">I work remotely and can adjust to any Timezones</p>
                             <p className="grid-subtext">I am based in the Philippines, can work remotely or on site depending on the opportunity provided.</p>
-                            <Button name="Lets Work together" isBeam containerClass="w-full mt-10"/>
+                            <a href="#contact"><Button name="Lets Work together" isBeam containerClass="w-full mt-10"/></a>
                         </div>
                     </div>
                 </div>

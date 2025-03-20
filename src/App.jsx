@@ -6,6 +6,7 @@ import Projects from "./sections/Projects.jsx";
 import Colleagues from "./sections/Colleagues.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import Experience from "./sections/Experience.jsx";
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <About/>
         <Projects/>
         <Colleagues/>
+        <Experience/>
         <Contact/>
         <Footer/>
     </main>
