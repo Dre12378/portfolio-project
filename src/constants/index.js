@@ -21,38 +21,38 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
+export const colleagueReviews = [
     {
         id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
-        img: 'assets/review1.png',
+        name: 'John Lebarios',
+        position: 'Package Application Developer at Accenture',
+        img: 'assets/laurence.jpg',
         review:
-            'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+            'Working with Andre was great! I acknowledge him for his exceptional performance as a colleague and a friend, His dedication and demeanor makes a significant impact around him in Work and as a person.',
     },
     {
         id: 2,
         name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
+        position: 'Founder of LoremIpsum',
         img: 'assets/review2.png',
         review:
-            'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     },
     {
         id: 3,
         name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
+        position: 'Founder of LoremIpsum',
         img: 'assets/review3.png',
         review:
-            'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     },
     {
         id: 4,
         name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
+        position: 'Founder of LoremIpsum',
         img: 'assets/review4.png',
         review:
-            'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     },
 ];
 
@@ -63,19 +63,19 @@ export const myProjects = [
         subdesc:
             'The app provides a clean and modern experience for browsing and discovering movies. It features a simple search bar and a built-in checker to display the trending movies currently being searched on the platform',
         href: 'https://dre12378.github.io/movie-project/',
-        texture: '/textures/project/projectmovie.mp4',
-        logo: '/assets/project-logo1.png',
+        texture: 'textures/project/projectmovie.mp4',
+        logo: 'assets/project-logo1.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
             boxShadow: '0px 0px 60px 0px #AA3C304D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: 'assets/spotlight2.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: 'assets/react.svg',
             },
             {
                 id: 2,
@@ -85,12 +85,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'AppWrite',
-                path: '/assets/appwrite.png',
+                path: 'assets/appwrite.png',
             },
             {
                 id: 4,
                 name: 'Movie DB',
-                path: '/assets/movieDB.png',
+                path: 'assets/movieDB.png',
             },
         ],
     },
@@ -100,8 +100,8 @@ export const myProjects = [
         subdesc:
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
         href: '_blank',
-        texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        texture: 'textures/project/project2.mp4',
+        logo: 'assets/project-logo2.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -112,7 +112,7 @@ export const myProjects = [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: 'assets/react.svg',
             },
             {
                 id: 2,
@@ -122,12 +122,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/typescript.png',
+                path: 'assets/typescript.png',
             },
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: 'assets/framer.png',
             },
         ],
     },
@@ -137,8 +137,8 @@ export const myProjects = [
         subdesc:
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
         href: '_blank',
-        texture: '/textures/project/project3.mp4',
-        logo: '/assets/project-logo3.png',
+        texture: 'textures/project/project3.mp4',
+        logo: 'assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
             background:
@@ -146,12 +146,12 @@ export const myProjects = [
             border: '0.2px solid rgba(208, 213, 221, 1)',
             boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
         },
-        spotlight: '/assets/spotlight3.png',
+        spotlight: 'assets/spotlight3.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: 'assets/react.svg',
             },
             {
                 id: 2,
@@ -161,12 +161,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/typescript.png',
+                path: 'assets/typescript.png',
             },
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: 'assets/framer.png',
             },
         ],
     },
@@ -176,14 +176,14 @@ export const myProjects = [
         subdesc:
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
         href: '_blank',
-        texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.png',
+        texture: 'textures/project/project4.mp4',
+        logo: 'assets/project-logo4.png',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
             boxShadow: '0px 0px 60px 0px #2F67B64D',
         },
-        spotlight: '/assets/spotlight4.png',
+        spotlight: 'assets/spotlight4.png',
         tags: [
             {
                 id: 1,
@@ -198,12 +198,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/typescript.png',
+                path: 'assets/typescript.png',
             },
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: 'assets/framer.png',
             },
         ],
     },
@@ -213,19 +213,19 @@ export const myProjects = [
         subdesc:
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
         href: '_blank',
-        texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
+        texture: 'textures/project/project5.mp4',
+        logo: 'assets/project-logo5.png',
         logoStyle: {
             backgroundColor: '#1C1A43',
             border: '0.2px solid #252262',
             boxShadow: '0px 0px 60px 0px #635BFF4D',
         },
-        spotlight: '/assets/spotlight5.png',
+        spotlight: 'assets/spotlight5.png',
         tags: [
             {
                 id: 1,
                 name: 'React.js',
-                path: '/assets/react.svg',
+                path: 'assets/react.svg',
             },
             {
                 id: 2,
@@ -235,12 +235,12 @@ export const myProjects = [
             {
                 id: 3,
                 name: 'TypeScript',
-                path: '/assets/typescript.png',
+                path: 'assets/typescript.png',
             },
             {
                 id: 4,
                 name: 'Framer Motion',
-                path: '/assets/framer.png',
+                path: 'assets/framer.png',
             },
         ],
     },
@@ -266,7 +266,7 @@ export const workExperiences = [
         pos: 'Lead Web Developer',
         duration: '2022 - Present',
         title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        icon: 'assets/framer.svg',
         animation: 'victory',
     },
     {
@@ -275,7 +275,7 @@ export const workExperiences = [
         pos: 'Web Developer',
         duration: '2020 - 2022',
         title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
+        icon: 'assets/figma.svg',
         animation: 'clapping',
     },
     {
@@ -284,7 +284,7 @@ export const workExperiences = [
         pos: 'Junior Web Developer',
         duration: '2019 - 2020',
         title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        icon: 'assets/notion.svg',
         animation: 'salute',
     },
 ];

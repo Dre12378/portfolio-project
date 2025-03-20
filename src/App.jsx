@@ -3,6 +3,9 @@ import NavBar from "./sections/NavBar.jsx";
 import Hero from "./sections/Hero.jsx";
 import About from "./sections/About.jsx";
 import Projects from "./sections/Projects.jsx";
+import Colleagues from "./sections/Colleagues.jsx";
+import Contact from "./sections/Contact.jsx";
+import Footer from "./sections/Footer.jsx";
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -14,6 +17,9 @@ function App() {
         <Hero/>
         <About/>
         <Projects/>
+        <Colleagues/>
+        <Contact/>
+        <Footer/>
     </main>
    </div>
   )

@@ -1,7 +1,8 @@
 import { useGLTF } from '@react-three/drei'
 
+
 const Room = (props) => {
-    const { nodes, materials } = useGLTF('./models/pokemon-room.glb')
+    const { nodes, materials } = useGLTF('models/pokemon-room.glb')
     return (
         <group {...props} dispose={null}>
             <mesh
@@ -116,6 +117,6 @@ const Room = (props) => {
     )
 }
 
-useGLTF.preload('./models/pokemon-room.glb')
+useGLTF.preload('models/pokemon-room.glb');
 
 export default Room;
