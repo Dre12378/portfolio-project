@@ -1,7 +1,7 @@
 import React, {Suspense} from 'react'
 import {Canvas} from "@react-three/fiber";
 import {workExperiences} from "../constants/index.js";
-import {OrbitControls, PerspectiveCamera} from "@react-three/drei";
+import {MeshReflectorMaterial, OrbitControls, PerspectiveCamera} from "@react-three/drei";
 import CanvasLoader from "../components/Loading.jsx";
 import Developer from "../components/Developer.jsx";
 
@@ -16,15 +16,37 @@ const Experience = () => {
                 <p className="head-text">My Experiences</p>
                 <div className="work-container">
                     <div className="work-canvas">
-                        <Canvas>
-                            <PerspectiveCamera makeDefault position={[0,5,7]}/>
-                            <ambientLight intensity={2}/>
-                            <spotLight position={[0,0,30]} angle={0.15} penubra={1}/>
+                        <Canvas shadows={"soft"} camera={{position: [-8,12,12], fov:15}}>
+                            {/*<PerspectiveCamera makeDefault position={[0,5,7]}/>*/}
+                            <hemisphereLight intensity={0.15} groundColor="black" />
+                            <spotLight decay={0} position={[10, 20, 10]} angle={0.12} penumbra={1} intensity={1} castShadow shadow-mapSize={1024} />
+                            <ambientLight intensity={0.25}/>
+                            {/*<spotLight color={'#ffffff'}*/}
+                            {/*           intensity={100}*/}
+                            {/*           castShadow*/}
+                            {/*           position={[0,5,7]}*/}
+                            {/*           angle={0.5}*/}
+                            {/*           penubra={1}/>*/}
                             <directionalLight position={[10,10,10]} intensity={1}/>
                             <OrbitControls enableZoom={true} maxPolarAngle={Math.PI/2} />
                             <Suspense fallback={<CanvasLoader />}>
-                                <Developer position-y={-3} scale={3}/>
+                                <Developer position-y={-2} scale={2}/>
                             </Suspense>
+                            <mesh position-y={-2} receiveShadow rotation={[-Math.PI / 2, 0, 0]}>
+                                <planeGeometry args={[50,50]} />
+                                <MeshReflectorMaterial
+                                    blur={[300, 30]}
+                                    resolution={2048}
+                                    mixBlur={1}
+                                    mixStrength={180}
+                                    roughness={1}
+                                    depthScale={1.2}
+                                    minDepthThreshold={0.4}
+                                    maxDepthThreshold={1.4}
+                                    color="#202020"
+                                    metalness={0.8}
+                                />
+                            </mesh>
                         </Canvas>
                     </div>
                         <div className="work-content">
