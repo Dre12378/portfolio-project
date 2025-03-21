@@ -47,15 +47,18 @@ const About = () => {
                         <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
                             <Globe
                                 ref={globeMethods}
+                                onGlobeReady={() => globeMethods.current?.pointOfView({lng: 121.7740, lat: 12})}
                                 height={326}
                                 width={326}
                                 backgroundColor="rgba(0, 0, 0, 0)"
                                 backgroundImageOpacity={0.5}
                                 showAtmosphere
                                 showGraticules
-                                globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-                                bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                                labelsData={[{ lat: 12.8797, lng: 121.7740, text: 'Philippines', color: 'white', size: 100 }]}/>
+                                globeImageUrl="https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-night.jpg"
+                                bumpImageUrl="https://cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png"
+                                labelsData={[{ lat: 12.8797, lng: 121.7740, text: 'Philippines', color: 'white' }]}
+                                labelSize={4}
+                            />
                         </div>
                         <div>
                             <p className="grid-headtext">I work remotely and can adjust to any Timezones</p>
