@@ -100,11 +100,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Megaworld BGC - under production',
-        desc: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        title: 'Megaworld BGC',
+        desc: 'Developed a bespoke WordPress website for a premier real estate client to showcase luxury properties in Bonifacio Global City. The site serves as a primary digital channel for marketing and lead generation and SEO Ranking.',
         subdesc:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        href: '_blank',
+            'I implemented a custom WordPress solution from the ground up, featuring unique post types for properties and powerful custom fields that allow the client to update content effortlessly. The result is a seamless, informative platform that effectively connects potential investors with their future properties.',
+        href: 'https://www.megaworld-bgc.com/',
         texture: 'textures/project/project2.mp4',
         logo: 'assets/project-logo2.png',
         logoStyle: {
@@ -112,7 +112,7 @@ export const myProjects = [
             border: '0.2px solid #17293E',
             boxShadow: '0px 0px 60px 0px #2F6DB54D',
         },
-        spotlight: '/assets/spotlight2.png',
+        spotlight: 'assets/spotlight2.png',
         tags: [
             {
                 id: 1,
@@ -137,11 +137,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Coming Soon - still not stable',
-        desc: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        title: 'Facial Care Centre',
+        desc: 'Provided comprehensive web development and technical maintenance for the official website of a leading national skincare clinic. My primary role was to ensure the site remained secure, functional, and up-to-date with fresh content for SEO Ranking.',
         subdesc:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        href: '_blank',
+            'Responsibilities included creating new posts and service pages, implementing custom back-end PHP snippets to enhance database queries, and hardening site security through strategic plugin deployment. I also handled critical troubleshooting, such as resolving issues with the contact form to maintain vital lead generation channels.',
+        href: 'https://www.facialcarecentre.com.ph',
         texture: 'textures/project/project3.mp4',
         logo: 'assets/project-logo3.png',
         logoStyle: {
@@ -177,7 +177,7 @@ export const myProjects = [
     },
     {
         title: 'Coming Soon - still not stable',
-        desc: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        desc: 'Project Coming soon',
         subdesc:
             'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
         href: '_blank',
@@ -212,43 +212,7 @@ export const myProjects = [
             },
         ],
     },
-    {
-        title: 'Coming Soon - still not stable',
-        desc: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-        subdesc:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        href: '_blank',
-        texture: 'textures/project/project5.mp4',
-        logo: 'assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: 'assets/spotlight5.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: 'assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: 'assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: 'assets/framer.png',
-            },
-        ],
-    },
+    
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
