@@ -176,11 +176,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Coming Soon - still not stable',
-        desc: 'Project Coming soon',
+        title: 'Sentiment Analysis',
+        desc: 'A high-performance, serverless REST API for real-time sentiment analysis of financial news headlines, tailored for accuracy in a financial services context.',
         subdesc:
-            'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."',
-        href: '_blank',
+            'In the fast-paced world of finance, market sentiment can shift in minutes based on breaking news. This project provides a robust and scalable solution to automatically classify financial text as positive, negative, or neutral.',
+        href: 'https://github.com/Dre12378/sentiment-analysis',
         texture: 'textures/project/project4.mp4',
         logo: 'assets/project-logo4.png',
         logoStyle: {
@@ -205,11 +205,11 @@ export const myProjects = [
                 name: 'TypeScript',
                 path: 'assets/typescript.png',
             },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: 'assets/framer.png',
-            },
+            // {
+            //     id: 4,
+            //     name: 'Framer Motion',
+            //     path: 'assets/framer.png',
+            // },
         ],
     },
     
