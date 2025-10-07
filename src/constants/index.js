@@ -55,7 +55,7 @@ export const colleagueReviews = [
         id: 4,
         name: 'Mikke Degala',
         position: 'Security Analyst at Accenture',
-        img: 'assets/mikke-review.jpg',
+        img: 'assets/Mikke-review.jpg',
         review:
             'It was a pleasure working with Andre at Accenture. In a fast-paced environment, he consistently proved to be a quick study and a reliable teammate. What really stands out is his proactive approach to problem-solving and his genuine willingness to support his colleagues. He\'s a sharp, adaptable developer with a great attitude, and he would be a valuable asset to any team.',
     },
@@ -218,7 +218,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
         deskScale: isSmall ? .8 : isMobile ? 1.2 : 1.5,
         cubeScale: isMobile ? 1.2 : 1,
-        targetScale: isSmall? 1.9 : isMobile ? 2 : 2.5,
+        targetScale: isSmall ? 1.9 : isMobile ? 2 : 2.5,
         deskPosition: isMobile ? [0, -0.5, 0] : [0, -2.3, 0],
         cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [10, -5.5, 10],
         reactLogoPosition: isSmall ? [5, 5, 0] : isMobile ? [8.5, 4, 4] : isTablet ? [10, 4, 8] : [12, 3, 8],
@@ -226,13 +226,21 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
         targetPosition: isSmall ? [-6, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-19, -14, -3],
     };
 };
-
 export const workExperiences = [
+    {
+        id: 1,
+        name: "SEO Hacker",
+        pos: "Junior Web Developer",
+        duration: "May 2025 - Present",
+        title: "Leveraged WordPress to build and maintain dynamic client websites, focusing on custom theme development and plugin integration. Drove innovation by exploring and implementing new web technologies and performance optimization techniques to enhance site speed and user engagement. Collaborated in an Agile environment to efficiently deliver new features and improvements.",
+        icon: "assets/SEO-Hacker.png",
+        animation: "salute"
+    },
     {
         id: 1,
         name: 'Accenture',
         pos: 'SW/App/Cloud Tech Support Associate',
-        duration: '2024 - Present',
+        duration: 'Febuary 2024 - May 2025',
         title: "I specialize in troubleshooting complex system issues, optimizing application performance, and ensuring seamless cloud operations. I provide technical solutions that enhance efficiency, minimize downtime, and improve user experience.",
         icon: 'assets/acn-logo.png',
         animation: 'victory',
@@ -245,14 +253,5 @@ export const workExperiences = [
         title: "I specialize in teaching Object-Oriented Programming (OOP), Java, Python, IT Service Management, and Mobile & Web Development. I mentor students in building strong technical foundations, applying industry best practices, and developing real-world problem-solving skills.",
         icon: 'assets/sti-logo.png',
         animation: 'clapping',
-    },
-    {
-        id: 3,
-        name: 'FFUF Manila Inc.',
-        pos: 'Junior Front End Developer',
-        duration: 'February 2023 - June 2023',
-        title: "Worked on front-end development using Angular, focusing on bug fixes, implementing client-requested features, and ensuring smooth UI/UX enhancements. Collaborated with the development team in Agile sprints to deliver high-quality updates efficiently.",
-        icon: 'assets/FFUF.png',
-        animation: 'salute',
-    },
+    }
 ];
