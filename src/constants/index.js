@@ -37,27 +37,27 @@ export const colleagueReviews = [
     },
     {
         id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of LoremIpsum',
-        img: 'assets/review2.png',
+        name: 'Cris Fernandez',
+        position: 'Quality Analyst in SEO Hacker',
+        img: 'assets/cris-avatar.png',
         review:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            'I had the pleasure of working with one of the most talented and genuine colleagues I’ve ever met. His strong work knowledge, skills, and great personality made him not only a valuable teammate but also a good friend outside of work.s',
     },
     {
         id: 3,
-        name: 'John Dohsas',
-        position: 'Founder of LoremIpsum',
-        img: 'assets/review3.png',
+        name: 'Mike Dorio',
+        position: 'Senior Web Developer at SEO Hacker',
+        img: 'assets/mike-avatar.jpg',
         review:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            'I’ve had the chance to work with Andre as his senior, and even in a short period of time he has shown impressive growth and initiative. He is innovative, quick to pick up new things, and very proactive in his work. He’s not afraid to ask questions and makes sure to seek validation before finalizing outputs that may have a big impact, which shows both responsibility and maturity. Andre is also easy to collaborate with, adaptable, and brings a positive energy to the team, making him a great teammate to work alongside.',
     },
     {
         id: 4,
-        name: 'Ether Smith',
-        position: 'Founder of LoremIpsum',
-        img: 'assets/review4.png',
+        name: 'Mikke Degala',
+        position: 'Security Analyst at Accenture',
+        img: 'assets/mikke-review.jpg',
         review:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+            'It was a pleasure working with Andre at Accenture. In a fast-paced environment, he consistently proved to be a quick study and a reliable teammate. What really stands out is his proactive approach to problem-solving and his genuine willingness to support his colleagues. He\'s a sharp, adaptable developer with a great attitude, and he would be a valuable asset to any team.',
     },
 ];
 
