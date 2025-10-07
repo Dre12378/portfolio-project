@@ -63,6 +63,43 @@ export const colleagueReviews = [
 
 export const myProjects = [
     {
+        title: 'Sentiment Analysis',
+        desc: 'A high-performance, serverless REST API for real-time sentiment analysis of financial news headlines, tailored for accuracy in a financial services context.',
+        subdesc:
+            'In the fast-paced world of finance, market sentiment can shift in minutes based on breaking news. This project provides a robust and scalable solution to automatically classify financial text as positive, negative, or neutral.',
+        href: 'https://sentiment-analysis-beta.streamlit.app/',
+        texture: 'textures/project/project4.mp4',
+        logo: 'assets/analysis.png',
+        logoStyle: {
+            backgroundColor: '#0E1F38',
+            border: '0.2px solid #0E2D58',
+            boxShadow: '0px 0px 60px 0px #2F67B64D',
+        },
+        spotlight: 'assets/spotlight4.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Python',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg',
+            },
+            {
+                id: 2,
+                name: 'Streamlit',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/streamlit/streamlit-original.svg',
+            },
+            {
+                id: 3,
+                name: 'FastAPI',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-plain.svg',
+            },
+            {
+                id: 4,
+                name: 'Hugging Face',
+                path: 'https://huggingface.co/front/assets/huggingface_logo-noborder.svg',
+            },
+        ],
+    },
+    {
         title: 'Movie App',
         desc: 'Built using React.js for the user interface, Appwrite for the Trending Movies algorithm (MovieDB) and API, and styled with Tailwind CSS, Movie App is my project that was dedicated to learn the fundamentals for react',
         subdesc:
@@ -175,44 +212,6 @@ export const myProjects = [
             },
         ],
     },
-    {
-        title: 'Sentiment Analysis',
-        desc: 'A high-performance, serverless REST API for real-time sentiment analysis of financial news headlines, tailored for accuracy in a financial services context.',
-        subdesc:
-            'In the fast-paced world of finance, market sentiment can shift in minutes based on breaking news. This project provides a robust and scalable solution to automatically classify financial text as positive, negative, or neutral.',
-        href: 'https://github.com/Dre12378/sentiment-analysis',
-        texture: 'textures/project/project4.mp4',
-        logo: 'assets/project-logo4.png',
-        logoStyle: {
-            backgroundColor: '#0E1F38',
-            border: '0.2px solid #0E2D58',
-            boxShadow: '0px 0px 60px 0px #2F67B64D',
-        },
-        spotlight: 'assets/spotlight4.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: 'assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: 'assets/framer.png',
-            },
-        ],
-    },
-    
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
