@@ -63,6 +63,38 @@ export const colleagueReviews = [
 
 export const myProjects = [
     {
+        title: 'Flat Rate Social',
+        desc: 'Architected and developed a conversion-focused website for a US-based social media agency. Prioritized Technical SEO and Core Web Vitals, achieving sub-2-second load times to maximize mobile retention. Implemented Product and Service Schema markup to enhance search visibility and structured the internal linking to distribute authority to key service pages.',
+        subdesc:
+            'In the fast-paced world of finance, market sentiment can shift in minutes based on breaking news. This project provides a robust and scalable solution to automatically classify financial text as positive, negative, or neutral.',
+        href: 'https://flatratesocial.us',
+        texture: 'textures/project/project4.mp4',
+        logo: 'assets/FlatRateSocial.png',
+        logoStyle: {
+            backgroundColor: '#0E1F38',
+            border: '0.2px solid #0E2D58',
+            boxShadow: '0px 0px 60px 0px #2F67B64D',
+        },
+        spotlight: 'assets/spotlight4.png',
+        tags: [
+            {
+                id: 1,
+                name: 'Elementor',
+                path: 'assets/elementor.png',
+            },
+            {
+                id: 2,
+                name: 'SEO',
+                path: 'assets/seo.png',
+            },
+            {
+                id: 3,
+                name: 'WordPress',
+                path: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-original.svg',
+            }
+        ],
+    },
+    {
         title: 'Sentiment Analysis',
         desc: 'A high-performance, serverless REST API for real-time sentiment analysis of financial news headlines, tailored for accuracy in a financial services context.',
         subdesc:
