@@ -27,7 +27,7 @@ const About = () => {
                         <div>
                             <p className="grid-headtext">Hi, I'm Andre</p>
                             <p className="grid-subtext">
-                                I am an aspiring Web Developer and Software Engineer who explores various programming languages to satisfy my curiosity and build engaging web applications. I love learning new technologies and solving challenges to create innovative and dynamic portfolio projects.
+                                I am a Technical SEO Specialist & Web Developer who builds high-performance websites that rank. I bridge the gap between clean code and search engine visibility.
                             </p>
                         </div>
 
@@ -72,7 +72,7 @@ const About = () => {
                         <img src="assets/grid3.png" alt="grid-3"
                         className="w-full sm:h-[266px] h-fit object-contain"/>
                         <p className="grid-headtext">My Passion for Knowledge, Creation, and Coding</p>
-                        <p className="grid-subtext">I love learning various tech to keep myself engaged and updated. I love coding as a passion not just a profession itself, creating my ideas and concepts into tangible and functional software, websites, or applications.</p>
+                        <p className="grid-subtext">My Passion for Performance & Structure. I don't just write code; I architect Silo Structures, optimize Core Web Vitals, and implement Schema Markup to drive organic growth.</p>
                     </div>
                 </div>
                 <div className="xl:col-span-1 xl:row-span-2">

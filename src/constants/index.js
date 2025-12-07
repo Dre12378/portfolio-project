@@ -264,7 +264,7 @@ export const workExperiences = [
         name: "SEO Hacker",
         pos: "Junior Web Developer",
         duration: "May 2025 - Present",
-        title: "Leveraged WordPress to build and maintain dynamic client websites, focusing on custom theme development and plugin integration. Drove innovation by exploring and implementing new web technologies and performance optimization techniques to enhance site speed and user engagement. Collaborated in an Agile environment to efficiently deliver new features and improvements.",
+        title: "Executed Technical SEO Audits for enterprise clients (Megaworld, WTC). Optimized Core Web Vitals (LCP/CLS) by refactoring legacy code and implementing JSON-LD Schema Markup to boost search visibility and CTR.",
         icon: "assets/SEO-Hacker.png",
         animation: "salute"
     },
@@ -273,7 +273,7 @@ export const workExperiences = [
         name: 'Accenture',
         pos: 'SW/App/Cloud Tech Support Associate',
         duration: 'Febuary 2024 - May 2025',
-        title: "I specialize in troubleshooting complex system issues, optimizing application performance, and ensuring seamless cloud operations. I provide technical solutions that enhance efficiency, minimize downtime, and improve user experience.",
+        title: "Managed Microsoft Azure infrastructure to ensure 99.9% server uptime. Conducted Log File Analysis and server-side troubleshooting, providing the technical foundation for crawlability and indexing performance.",
         icon: 'assets/acn-logo.png',
         animation: 'victory',
     },
