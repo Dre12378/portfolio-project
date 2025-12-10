@@ -8,16 +8,6 @@ const About = () => {
     const globeMethods = useRef(null);
     const [hasCopied, setHasCopied] = React.useState(false);
 
-    const handleCopy = () => {
-        navigator.clipboard.writeText('andrepdeguzman@gmail.com');
-        setHasCopied(true);
-
-        setTimeout(()=>{
-            setHasCopied(false);
-        }, 2000)
-    }
-
-
     return (
         <section className="c-space my-20" id="about">
             <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
@@ -82,7 +72,7 @@ const About = () => {
                             <p className="grid-subtext text-center">Contact Me</p>
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy"/>
-                                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">andrepdeguzman@gmail.com</p>
+                                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white"></p>
                             </div>
                         </div>
                     </div>
