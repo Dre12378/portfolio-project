@@ -6,10 +6,16 @@ import { useGSAP } from '@gsap/react';
 
 const DemoComputer = (props) => {
     const group = useRef();
-    const { nodes, materials, animations } = useGLTF('models/computer.glb');
+    const { nodes, materials, animations } = useGLTF('models/computer.glb', true, (error) => {
+        console.error('Error loading DemoComputer model:', error);
+    });
     const { actions } = useAnimations(animations, group);
 
-    const txt = useVideoTexture(props.texture ? props.texture : 'textures/project/project1.mp4');
+    const txt = useVideoTexture(props.texture ? props.texture : 'textures/project/project1.mp4', {
+        onError: (error) => {
+            console.error('Error loading video texture:', error);
+        }
+    });
 
     useEffect(() => {
         if (txt) {
@@ -18,12 +24,16 @@ const DemoComputer = (props) => {
     }, [txt]);
 
     useGSAP(() => {
-        gsap.from(group.current.rotation, {
-            y: Math.PI / 2,
-            duration: 1,
-            ease: 'power3.out',
-        });
+        if (group.current) {
+            gsap.from(group.current.rotation, {
+                y: Math.PI / 2,
+                duration: 1,
+                ease: 'power3.out',
+            });
+        }
     }, [txt]);
+
+    if (!nodes || !materials) return null;
 
     return (
         <group ref={group} {...props} dispose={null}>
