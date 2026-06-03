@@ -2,7 +2,12 @@ import { useGLTF } from '@react-three/drei'
 
 
 const Room = (props) => {
-    const { nodes, materials } = useGLTF('models/pokemon-room.glb')
+    const { nodes, materials } = useGLTF('models/pokemon-room.glb', true, (error) => {
+        console.error('Error loading Room model:', error);
+    })
+    
+    if (!nodes || !materials) return null;
+    
     return (
         <group {...props} dispose={null}>
             <mesh
