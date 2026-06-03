@@ -1,4 +1,4 @@
-import React, {useRef, } from 'react'
+import React, {useRef, useState} from 'react'
 import Globe from "react-globe.gl";
 import Button from "../components/Button.jsx";
 
@@ -6,7 +6,15 @@ import Button from "../components/Button.jsx";
 const About = () => {
     // Gen random data
     const globeMethods = useRef(null);
-    const [hasCopied, setHasCopied] = React.useState(false);
+    const [hasCopied, setHasCopied] = useState(false);
+
+    const handleCopy = () => {
+        navigator.clipboard.writeText('andrepdeguzman@gmail.com');
+        setHasCopied(true);
+        setTimeout(() => {
+            setHasCopied(false);
+        }, 3000);
+    }
 
     return (
         <section className="c-space my-20" id="about">
@@ -28,7 +36,7 @@ const About = () => {
                         <img src="assets/grid2.png" alt="knowledge specifics" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I specialize in Web framework and languages, primarily JavaScript/Typescript with react and next.js. Also dabbles on programming languages like Python and Java for an objected oriented learnings.</p>
+                            <p className="grid-subtext">I specialize in Web framework and languages, primarily JavaScript/Typescript with react and next.js. Also dabbles on programming languages l[...]
                         </div>
                     </div>
                 </div>
@@ -62,7 +70,7 @@ const About = () => {
                         <img src="assets/grid3.png" alt="grid-3"
                         className="w-full sm:h-[266px] h-fit object-contain"/>
                         <p className="grid-headtext">My Passion for Knowledge, Creation, and Coding</p>
-                        <p className="grid-subtext">My Passion for Performance & Structure. I don't just write code; I architect Silo Structures, optimize Core Web Vitals, and implement Schema Markup to drive organic growth.</p>
+                        <p className="grid-subtext">My Passion for Performance & Structure. I don't just write code; I architect Silo Structures, optimize Core Web Vitals, and implement Schema Mar[...]
                     </div>
                 </div>
                 <div className="xl:col-span-1 xl:row-span-2">
@@ -72,7 +80,7 @@ const About = () => {
                             <p className="grid-subtext text-center">Contact Me</p>
                             <div className="copy-container" onClick={handleCopy}>
                                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy"/>
-                                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white"></p>
+                                <p className="lg:text-xl md:text-xl font-medium text-gray_gradient text-white">andrepdeguzman@gmail.com</p>
                             </div>
                         </div>
                     </div>
