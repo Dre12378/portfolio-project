@@ -5,7 +5,11 @@ import { useAnimations, useFBX, useGLTF } from '@react-three/drei';
 const Developer = ({animationName = 'idle', ...props}) => {
     const group = useRef();
 
-    const { nodes, materials } = useGLTF('models/me-avatar.glb');
+    const { nodes, materials } = useGLTF('models/me-avatar.glb', true, (error) => {
+        console.error('Error loading Developer model:', error);
+    });
+
+    if (!nodes || !materials) return null;
 
     const { animations: strutWalkingAnimation } = useFBX('models/animations/idle.fbx');
     strutWalkingAnimation[0].name = 'idle';
@@ -13,9 +17,12 @@ const Developer = ({animationName = 'idle', ...props}) => {
     const { actions } = useAnimations([strutWalkingAnimation[0]],group);
 
     useEffect(() => {
-        actions[animationName].reset().fadeIn(0.5).play();
-        return () => actions[animationName]
-    }, [animationName]);
+        if (actions && actions[animationName]) {
+            actions[animationName].reset().fadeIn(0.5).play();
+            return () => actions[animationName]
+        }
+    }, [animationName, actions]);
+    
     return (
         <group {...props} dispose={null} ref={group}>
             <primitive object={nodes.Hips} />
