@@ -55,7 +55,7 @@ const Experience = () => {
                                     <div key={item.id} className="work-content_container group">
                                         <div className="flex flex-col h-full justify-start items-center py-2">
                                             <div className="work-content_logo">
-                                                {item.id == 3 ? <img src={item.icon} alt="logo" className="w-fit h-fit mt-4"/> : <img src={item.icon} alt="logo" className="w-fit h-fit"/>}
+                                                 {item.id == 3 ? <img src={item.icon} alt="logo" className="w-full h-full object-contain mt-4"/> : <img src={item.icon} alt="logo" className="w-full h-full object-contain"/>}
                                             </div>
                                             <div className="work-content_bar"/>
                                         </div>

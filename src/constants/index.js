@@ -260,6 +260,24 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 };
 export const workExperiences = [
     {
+        id: 4, // Enshored Inc. (Supporting GoMega.AI)
+        name: "Enshored Inc. (Supporting GoMega.AI)",
+        pos: "Full Stack AI Web Developer | SEO AI Specialist",
+        duration: "Jan 2026 – Present",
+        title: "Audit and resolve syntax errors and logic failures in AI-generated code to ensure functional deployment across diverse client environments. Write and maintain custom Python scripts to automate the testing of AI outputs and scale repetitive data operations. Configure crawler access protocols and manage robots.txt directives for OpenAI and standard search engines across live staging environments. Troubleshoot complex SaaS workflows in GoHighLevel, resolving indexation failures, sitemap errors, and duplicate metadata. Design and inject complex JSON-LD Schema arrays into custom CMS templates to maintain structural data integrity. Execute manual and automated quality assurance tests on web deployments to catch vulnerabilities and rendering issues before production merges.",
+        icon: "assets/enshored.png",
+        animation: "idle"
+    },
+    {
+        id: 5, // Horvath & Vaeth Outsourcing
+        name: "Horvath & Vaeth Outsourcing",
+        pos: "WordPress Developer (Project-Based)",
+        duration: "Nov 2025 – Dec 2025",
+        title: "Built and customized responsive web pages utilizing Elementor and custom PHP to meet specific design and functional requirements. Configured caching protocols and optimized site assets to improve Core Web Vitals (LCP/CLS) and overall page load speeds. Integrated technical SEO standards directly into the build phase, structuring heading hierarchy and meta tags for immediate indexing.",
+        icon: "assets/hv logo.jpeg",
+        animation: "idle"
+    },
+    {
         id: 1,
         name: "SEO Hacker",
         pos: "Junior Web Developer",
