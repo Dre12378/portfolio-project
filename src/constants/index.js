@@ -269,7 +269,7 @@ export const workExperiences = [
         animation: "salute"
     },
     {
-        id: 1,
+        id: 2,
         name: 'Accenture',
         pos: 'SW/App/Cloud Tech Support Associate',
         duration: 'Febuary 2024 - May 2025',
@@ -278,7 +278,7 @@ export const workExperiences = [
         animation: 'victory',
     },
     {
-        id: 2,
+        id: 3,
         name: 'STI College',
         pos: 'IT Instructor',
         duration: '2023 - 2024',
