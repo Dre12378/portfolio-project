@@ -36,7 +36,7 @@ const About = () => {
                         <img src="assets/grid2.png" alt="knowledge specifics" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I specialize in Web framework and languages, primarily JavaScript/Typescript with react and next.js. Also dabbles on programming languages l[...]
+                            <p className="grid-subtext">I specialize in Web framework and languages, primarily JavaScript/Typescript with react and next.js. Also dabbles on programming languages l[...]</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ const About = () => {
                         <img src="assets/grid3.png" alt="grid-3"
                         className="w-full sm:h-[266px] h-fit object-contain"/>
                         <p className="grid-headtext">My Passion for Knowledge, Creation, and Coding</p>
-                        <p className="grid-subtext">My Passion for Performance & Structure. I don't just write code; I architect Silo Structures, optimize Core Web Vitals, and implement Schema Mar[...]
+                        <p className="grid-subtext">My Passion for Performance & Structure. I don't just write code; I architect Silo Structures, optimize Core Web Vitals, and implement Schema Mar[...]</p>
                     </div>
                 </div>
                 <div className="xl:col-span-1 xl:row-span-2">
